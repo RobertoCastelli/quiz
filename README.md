@@ -1,6 +1,6 @@
-# A little story to live and die
+# QUIZ!
 
-> made this Quiz game for a special person.
+> I made this Quiz game just for the sake of fun.
 
 Enjoy!
 
