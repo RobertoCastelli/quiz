@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONTAWSOME -->
+    <script src="https://kit.fontawesome.com/dcf7aaaa52.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz</title>
+</head>
+<body>
+    <!-- <iframe src="/sound/hp.mp3" allow="autoplay" style="display:none"></iframe>  -->
+
+    <!-- <audio autoplay="autoplay" loop>
+        <source src="/sound/hp.mp3" />     
+    </audio> -->
+
+    <div class="container">
+        <div class="header">
+            <h1>QUIZ</h1>
+            <h6>Let's test your knowledge!</h6>
+            <button id="btnStart" class="btn btn-lg btn-secondary"><i class="fas fa-door-open"></i></button>
+        </div>
+
+        <div class="main">
+            <h3 id="quizTitle">Question n°<span id="counter"></span></h3>
+            <h6 id="quiz"></h6>
+            <input id="inputResponse" type="text" placeholder="try to score" class="form-control">
+            <button id="btnQuaffle" class="btn btn-lg btn-secondary">Go for it!</button>
+            <p id="time"></p>    
+            <img id="gif" src="img/you.jpg" alt="image">
+        </div>  
+    </div>
+
+    <footer class="m-3">copyright &copy; 2019 justRo</footer>
+    
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
